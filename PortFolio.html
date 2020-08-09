@@ -1,58 +1,91 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Kato Shoma</title>
 </head>
+
 <body>
     <header>
-        <div>
+        <div class="topChar">
             <h1>加藤　将馬のポートフォリオサイト</h1>
             <p>はじめまして。加藤将馬のポートフォリオサイトへようこそ。</p>
         </div>
-        <div>
-            <p>座右の銘</p>
-        </div>
-        <div class="menu">
+
+        <!--<div class="menu">
             <p><a href="PortFolio.html">トップ</a></p>
             <p><a href="index_info.html">基本情報</a></p>
             <p><a href="index_mile.html">軌跡</a></p>
             <p><a href="index_pre.html">現在</a></p>
             <p><a href="index_ftr.html">これから</a></p>
-        </div>
+        </div>-->
     </header>
 
     <div id="MainContainer">
-        <div class="MainBox">
-            <a href="index_info.html">
-                <h2>基本情報 -- Identification</h2>
-            </a>
-            <p>私の基本的な情報についてのページです。私が所属する組織について記しています。</p>
+        <div id="mainBox1" class="MainBox">
+
+            <div class="infoContainer">
+                <div class="infoItem">
+
+                    <a href="index_info.html">
+                        <h2>基本情報 -- Identification</h2>
+                    </a>
+
+                    <p>私の基本的な情報についてのページです。私が所属する組織について記しています。</p>
+                </div>
+                <div class="infoItem">
+                    <img src="images/computer_motherboard.png" alt="名古屋工業大学">
+                </div>
+            </div>
+
         </div>
-        <div class="MainBox">
-            <a href="index_mile.html">
-                <h2>軌跡 -- Milestone</h2>
-            </a>
-            <p>私のこれまでについてのページです。私の出身地や、高校生の時のことなどを記しています。</p>
+        <div id="mainBox2" class="MainBox">
+            <div class="infoContainer">
+               <div class="infoItem">
+                <a href="index_mile.html">
+                    <h2>軌跡 -- Milestone</h2>
+                </a>
+                <p>私のこれまでについてのページです。私の出身地や、高校生の時のことなどを記しています。</p>
+                </div>
+                <div class="infoItem" id="tajimi">
+                <img src="images/tajimi_p01_01.jpg" alt="多治見市">
+                </div>
+            </div>
         </div>
-        <div class="MainBox">
+        <div id="mainBox3" class="MainBox">
             <a href="index_pre.html">
                 <h2>現在 -- Present</h2>
             </a>
             <p>現在の私についてのページです。私の趣味、性格などを記しています。</p>
         </div>
-        <div class="MainBox">
+        <div id="mainBox4" class="MainBox">
+           <div class="infoContainer">
+           <div class="infoItem">
             <a href="index_ftr.html">
                 <h2>これから -- Future</h2>
             </a>
             <p>私がこれからどのように過ごしていきたいかを記したページです。</p>
+               </div>
+            <div id="tani" class="infoItem">
+                <img src="images/school_tani_get_boy.png" alt="単位">
+                </div>
+            </div>
         </div>
     </div>
-        
+
     <div>
-        
+
     </div>
 
-</body>
-</html>
+    <p>関連アカウント</p>
+    <div class="acountLink">
+        <div class="linkItem">ツイッター</div>
+        <div class="linkItem">E-Mail</div>
+        <div class="linkItem">Line</div>
+    </div>
+    
+    
+</body></html>

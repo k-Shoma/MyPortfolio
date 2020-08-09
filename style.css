@@ -1,0 +1,157 @@
+body{
+    font-family: serif, "Segoe UI";
+    background-color: rgba(235, 227, 215, 0.83);
+    color: #1c0050;
+}
+
+/* header */
+
+header{
+    text-align: center;
+    color: #0c0050;
+    background-image: url(images/nitech.jpg);
+    background-repeat: repeat-x;
+    background-size: 30rem;
+    width: 50%; 
+    
+}
+
+.topChar{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    
+}
+
+.topChar p{
+    background-color: rgba(255, 255, 255, 0.76);
+    text-align: center;
+}
+
+/* main */
+
+#MainContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.MainBox{
+    width: 42vw;
+    min-width: 470px;
+    border: 2px #00800a dashed;
+    background-color: rgba(245, 255, 249, 0.79);
+    margin: 5px;
+}
+
+
+.MainBox h2{
+    border-bottom: 1px black solid;
+    width: 42vw;
+    font-family: 'Yu Gothic';
+}
+
+.MainBox p{
+    font-family: 'Meiryo';
+}
+
+.MainBox a{
+    color: #e86300;
+}
+
+.MainBox a:hover{
+    color: #b74e00;
+}
+
+#mainBox1{
+    margin-left: 30vw;
+}
+
+#mainBox2{
+    margin-left: 32vw;
+}
+
+#mainBox3{
+    margin-left: 34vw;
+}
+
+#mainBox4{
+    margin-left: 36vw;
+    
+}
+
+.infoContainer{
+    display: flex;
+}
+
+.infoItem img{
+    width: 25%;
+    height: auto;
+    min-width: 120px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 4px;
+    border: 4px #e86300 double;
+    border-radius: 20px;
+    background-color: #fafafa;
+}
+
+#tajimi img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/*
+#tani img{
+    box-sizing: content-box;
+    position:absolute;
+    width: 6%;
+    right: 25vw;
+    top: 610px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 4px;
+    border: 4px #e86300 double;
+    border-radius: 20px;
+    background-color: #fafafa;
+}
+*/
+
+/* Identification */
+#info{
+    text-align: center;
+}
+
+h1{
+    font-family: "Yu Gothic", "Segoe UI";
+    color: #1c0050;
+    width: 50vw;
+    font-weight: bolder;
+    margin: 0 auto;
+    border-bottom: 3px #ef8305 solid;
+    text-align: center;
+}
+
+#infoTable{
+    margin: 0 auto;
+    width: 50vw;
+    font-family: "Meiryo";
+    background-color: rgba(250, 255, 244, 0.8);
+    border: 4px #1d0045 solid;
+}
+
+#infoTable th,td{
+    font-size: 1.4rem;
+    padding: 10px;
+    border: 2px #155000 solid;
+}
+
+#infoTable a{
+    color: #e86300;
+}
+
+#infoTable a:hover{
+    color: #b74e00;
+}
+
+.noImage{
+    background-color: white;
+    border-radius: 20px;
+}
