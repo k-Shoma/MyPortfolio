@@ -1,1 +1,7 @@
 多治見市位置図　<a href="//ja.wikipedia.org/wiki/Wikipedia:Text_of_GNU_Free_Documentation_License" title="GNU Free Documentation License with no disclaimers">GFDL-no-disclaimers</a>, <a href="https://ja.wikipedia.org/w/index.php?curid=1174455">リンク</a>
+
+中央線路線図
+https://www.rosenzu.com/rr/rrj11.pdf
+
+気象庁
+https://www.data.jma.go.jp/obd/stats/data/mdrr/rank_daily/index.html

@@ -136,6 +136,23 @@ header{
 }
 */
 
+.links{
+    text-align: center;
+    margin: 0 auto;
+    width: 50vw;
+}
+
+.accountLink{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    width: 50vw;
+}
+
+.linkItem{
+    justify-content: space-between;
+}
+
 /* Identification ------*/
 #info{
     text-align: center;
@@ -230,7 +247,7 @@ header{
     border-top: 2px #b74e00 solid;
 }
 .item1 p{
-
+    background-color: #f9fffe;
 }
 .item1 img{
     width: 250px;
@@ -258,8 +275,29 @@ header{
     height: 250px;
     object-fit:contain;
 }
+
+.item3 p{
+    background-color: #f9fffe;
+}
+
 .item3{
+    border-bottom: 2px #b74e00 dashed;
+}
+
+.item4{
     border-bottom: 2px #b74e00 solid;
+}
+
+.item4 p{
+    background-color: #f9fffe;
+}
+
+.item4 img{
+    width: 310px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px;
+
 }
 
 .highschool{
@@ -274,6 +312,9 @@ header{
 }
 .highschool img{
     width: 30%
+}
+.highschool p{
+    background-color: #f9fffe;
 }
 
 /* present ------*/
@@ -322,3 +363,4 @@ header{
     font-family: "Meiryo";
     font-size: 1.2rem;
 }
+
