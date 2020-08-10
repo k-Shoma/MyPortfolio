@@ -12,8 +12,8 @@ header{
     background-image: url(images/nitech.jpg);
     background-repeat: repeat-x;
     background-size: 30rem;
-    width: 50%; 
-    
+    width: 50vw;
+    margin: 0 auto;
 }
 
 .topChar{
@@ -25,6 +25,28 @@ header{
 .topChar p{
     background-color: rgba(255, 255, 255, 0.76);
     text-align: center;
+}
+
+/* subHeader ------*/
+.subHeader{
+
+}
+
+.menuSub{
+    display: flex;
+    background-color: rgba(209, 255, 232, 0.76);
+}
+.menuSub p{
+    font-size: 1.5rem;;
+    font-family: "Meiryo";
+    margin: auto;
+}
+
+.menuSub a{
+    color: #e86300;
+}
+.menuSub a:hover{
+    color: #b74e00;
 }
 
 /* main */
@@ -114,20 +136,20 @@ header{
 }
 */
 
-/* Identification */
+/* Identification ------*/
 #info{
     text-align: center;
 }
 
-h1{
+#info h1{
     font-family: "Yu Gothic", "Segoe UI";
     color: #1c0050;
     width: 50vw;
     font-weight: bolder;
-    margin: 0 auto;
     border-bottom: 3px #ef8305 solid;
-    text-align: center;
+    margin: 0 auto;
 }
+
 
 #infoTable{
     margin: 0 auto;
@@ -154,4 +176,149 @@ h1{
 .noImage{
     background-color: white;
     border-radius: 20px;
+}
+
+.toTop{
+    font-size: 30px;
+    margin: 10px auto;
+    width: 50vw;
+    text-align: left;
+}
+
+.toTop a{
+    color: #e86300;
+}
+.toTop a:hover{
+    color: #b74e00;
+}
+
+/* milestone ------*/
+#milestone{
+    text-align: center;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+#milestone h2{
+    font-family: "Yu Gothic", "Segoe UI";
+    color: #1c0050;
+    width: 50vw;
+    font-size: 2rem;
+    font-weight: bolder;
+    border-bottom: 3px #ef8305 solid;
+
+}
+
+#TownContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.TownItem{
+    display: flex;
+    font-family: "Meiryo";
+    border-left: 8px #e86300 solid;
+    border-right: 2px #b74e00 solid;
+
+    background-color: rgba(235, 253, 237, 0.85);
+}
+
+.item1{
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 2px #b74e00 dashed;
+    border-top: 2px #b74e00 solid;
+}
+.item1 p{
+
+}
+.item1 img{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.item2{
+    border-bottom: 2px #b74e00 dashed;
+}
+.item2 p{
+    background-color: #f9fffe;
+}
+.item2 img{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    object-fit: cover;
+}
+
+.item3 img{
+    width: 250px;
+    height: 250px;
+    object-fit:contain;
+}
+.item3{
+    border-bottom: 2px #b74e00 solid;
+}
+
+.highschool{
+    display: flex;
+    font-family: "Meiryo";
+    margin: 10px 0;
+    border-top: 2px #b74e00 solid;
+    border-left: 8px #e86300 solid;
+    border-bottom: 2px #b74e00 solid;
+    border-right: 2px #b74e00 solid;
+    background-color: rgba(235, 253, 237, 0.85);
+}
+.highschool img{
+    width: 30%
+}
+
+/* present ------*/
+#present {
+    width: 50vw;
+    margin: 0 auto;
+    font-family: "Meiryo";
+}
+
+.contents h2{
+    font-family: "Yu Gothic", "Segoe UI";
+    color: #1c0050;
+    width: 50vw;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    border-bottom: 3px #ef8305 solid;
+}
+
+.contents h3{
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 2px green solid;
+}
+
+#present h4{
+    font-size: 1.25rem;
+    border-bottom: 1px black solid;
+    padding: 5px;
+    margin-top: 0;
+}
+
+.character{
+    background-color: rgba(235, 253, 237, 0.85);
+    padding: 10px;
+    border: 2.5px #ef8305 double;
+}
+
+/* future ------*/
+#future{
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.futureMain p{
+    font-family: "Meiryo";
+    font-size: 1.2rem;
 }
