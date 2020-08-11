@@ -144,13 +144,50 @@ header{
 
 .accountLink{
     display: flex;
+    flex-direction: row;
     text-align: center;
     margin: 0 auto;
     width: 50vw;
 }
 
-.linkItem{
+.linkItem button{
     justify-content: space-between;
+    margin: 0 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 120px;
+}
+
+#linkitem1 button{
+    color: white;
+    background-color: #00acee;
+    border: 1px #00acee outset;
+}
+
+#linkitem1 button:hover{
+    color: white;
+    background-color: #0093ff;
+}
+
+#linkitem2 button{
+    color: #cc0000;
+    background-color: white;
+}
+
+#linkitem2 button:hover{
+    color: #ff0000;
+    background-color: #f4f4f4;
+}
+
+#linkitem3 button{
+    color: #fefff2;
+    background-color: #21d458;
+}
+
+#linkitem3 button:hover{
+    color: #fff1f2;
+    background-color: #00aa1a;
 }
 
 /* Identification ------*/
@@ -166,7 +203,6 @@ header{
     border-bottom: 3px #ef8305 solid;
     margin: 0 auto;
 }
-
 
 #infoTable{
     margin: 0 auto;
@@ -364,3 +400,101 @@ header{
     font-size: 1.2rem;
 }
 
+.futurecontents{
+    background-color: #f9fffe;
+    border: 2px #b74e00 solid;
+}
+
+
+
+/* responsive -----------*/
+@media (max-width: 600px){
+    html{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    body{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    header{
+        margin: 0 auto;
+        background-repeat:no-repeat;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .topChar{
+        margin: 0 auto;
+        color: #b74e00;
+    }
+
+    .topChar h1{
+        background-color: rgba(249, 255, 254, 0.7);
+        margin: 0
+    }
+
+    /* top ------ */
+    #MainContainer{
+
+    }
+
+    .infoItem img{
+        margin: 20px;
+    }
+
+    #tajimi img{
+        margin: 10px 10px 10px 20px;
+    }
+
+    .infoItem{
+        width: 100%;
+    }
+
+    #mainBox1{
+        margin: 0 auto;
+    }
+
+    #mainBox2{
+        margin: 0 auto;
+    }
+    #mainBox3{
+        margin: 0 auto;
+    }
+    #mainBox4{
+        margin: 0 auto;
+    }
+
+    /* info ------ */
+    #infoTable{
+        width: 100vw;
+    }
+
+    .toTop{
+        text-align: center;
+    }
+
+    /* milestone ------ */
+    #milestone{
+        width: 100%;
+    }
+
+    .subHeader{
+        background-position: top;
+        background-size: cover;
+    }
+
+    main h2{
+        text-align: center;
+        margin: 5px auto;
+    }
+
+    /* present -----*/
+    #present{
+        width: 100%;
+    }
+}
