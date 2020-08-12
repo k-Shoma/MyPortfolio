@@ -389,6 +389,10 @@ header{
     border: 2.5px #ef8305 double;
 }
 
+#present ul{
+    list-style-type: square;
+}
+
 /* future ------*/
 #future{
     width: 50vw;
