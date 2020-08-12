@@ -138,8 +138,10 @@ header{
 
 .links{
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto;
     width: 50vw;
+    font-family: "Meiryo";
+    font-size: 20px;
 }
 
 .accountLink{
@@ -147,7 +149,7 @@ header{
     flex-direction: row;
     text-align: center;
     margin: 0 auto;
-    width: 50vw;
+    width: 16vw;
 }
 
 .linkItem button{
@@ -405,8 +407,10 @@ header{
 }
 
 .futurecontents{
-    background-color: #f9fffe;
+    font-family: "Meiryo";
+    background-color: #f5fffd;
     border: 2px #b74e00 solid;
+    margin: 10px auto;
 }
 
 
